@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I have used before",
+  title: "Technologies I have used",
   subTitle:
     "I am trying to learn as many technologies as possible and be able to adapt to every work environment",
   skills: [
@@ -68,12 +68,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML-5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "SASS",
+      fontAwesomeClassname: "fab fa-sass"
     },
     /*{
       skillName: "sass",
@@ -82,6 +86,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "BootStrap 5",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     /*{
       skillName: "reactjs",
@@ -398,9 +406,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "If you have an offer for me or just want to talk, here is my contact information.",
-  /*number: "+92-0000000000",*/
+  subtitle: "If you have an offer for me or just want to talk, here are my social media accounts.",
+  //number: "+92-0000000000",
   email_address: "umutbekdemir29@gmail.com"
 };
 

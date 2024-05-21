@@ -32,6 +32,7 @@
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
+    line-height: normal;
   }
 }
 @media (max-width: 768px) {
@@ -42,7 +43,7 @@
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-  }
+  } 
   .skills-main-div {
     flex-direction: column;
   }
