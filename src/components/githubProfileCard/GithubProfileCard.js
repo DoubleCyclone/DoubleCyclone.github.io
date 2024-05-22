@@ -17,14 +17,6 @@ export default function GithubProfileCard({prof}) {
         <h1 className="prof-title">Reach Out to me!</h1>
         <div className="row">
           <div className="main-content-profile">
-            <div className="blog-header">
-              <p className="subTitle blog-subtitle">
-                {contactInfo.subtitle}
-                <strong>
-                  <em>{contactInfo.email_address}</em>
-                </strong>
-              </p>
-            </div>
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             {prof.location !== null && (
               <div className="location-div">
@@ -50,6 +42,14 @@ export default function GithubProfileCard({prof}) {
               <span className="desc-prof">
                 Open for opportunities: {prof.hireable}
               </span>
+            </div>
+            <div className="blog-header">
+              <p className="subTitle blog-subtitle">
+                {contactInfo.subtitle}
+                <strong>
+                  <em>{contactInfo.email_address}</em>
+                </strong>
+              </p>
             </div>
             <SocialMedia />
           </div>
