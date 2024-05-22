@@ -406,7 +406,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "If you have an offer for me or just want to talk, here are my social media accounts.",
+  subtitle:
+    "If you have an offer for me or just want to talk, here are my social media accounts. Or you can send me an e-mail at : ",
   //number: "+92-0000000000",
   email_address: "umutbekdemir29@gmail.com"
 };
@@ -414,7 +415,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "EightBitHeroo", //Replace "twitter" with your twitter username without @
+  userName: "", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
