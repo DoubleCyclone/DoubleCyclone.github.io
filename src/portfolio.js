@@ -35,13 +35,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/DoubleCyclone/",
   linkedin: "https://www.linkedin.com/in/umut-bekdemir-803a2825a/",
-  gmail: "umutbekdemir29@gmail.com",
-  gitlab: "",
-  facebook: "https://www.facebook.com/umut.bekdemir.90/",
+  //gitlab: "",
   medium: "https://medium.com/@umutbekdemir29/",
-  stackoverflow: "",
-  twitter: "https://x.com/EightBitHeroo/",
-  steam: "https://steamcommunity.com/id/8bithero/",
+  gmail: "umutbekdemir29@gmail.com",
+  //stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
