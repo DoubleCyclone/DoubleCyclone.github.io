@@ -23,12 +23,15 @@ const greeting = {
   username: "Umut Bekdemir",
   title: "Hi all, I'm Umut",
   subTitle: emoji(
-    "An aspiring newgrad Software Engineer who loves to learn new concepts and technologies."
+    "An aspiring newgrad software engineer who loves to learn new concepts and technologies. " +
+      "Graduated in April 2024 (Software Engineering) my greatest goal is to live and work abroad and I love video games. Especially roguelikes and fighting games!"
   ),
   resumeLink:
     "https://docs.google.com/document/d/1GMVA-GTIJSjdp7FfeSjpM1FK8NKM6_IP/edit?usp=drive_link&ouid=114330316121053025913&rtpof=true&sd=true", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 // Social Media Links
 
@@ -37,7 +40,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/umut-bekdemir-803a2825a/",
   //gitlab: "",
   medium: "https://medium.com/@umutbekdemir29/",
-  gmail: "umutbekdemir29@gmail.com",
+  gmail: "umut.bekdemir29@gmail.com",
   //stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -129,14 +132,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "C#",
-      fontAwesomeClassname: ""
-    },
-    {
-      skillName: "Kotlin",
-      fontAwesomeClassname: ""
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
     },
@@ -149,16 +144,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-chrome"
     },
     {
-      skillName: "Entity Framework",
-      fontAwesomeClassname: ""
-    },
-    {
       skillName: "Jira",
       fontAwesomeClassname: "fab fa-jira"
     },
     {
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
+    },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fa fa-rectangle-xmark"
+    },
+    {
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fa fa-rectangle-xmark"
+    },
+    {
+      skillName: "Entity Framework",
+      fontAwesomeClassname: "fa fa-rectangle-xmark"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -174,8 +177,12 @@ const educationInfo = {
       logo: require("./assets/images/BauLogo.png"),
       subHeader: "Bachelor of Science in Software Engineering",
       duration: "February 2020 - February 2024",
-      desc: "Studied a lot of different project management and software engineering concepts. Published one academic paper.",
-      descBullets: ["Graduated with a GPA of 3,56/4"]
+      desc: "",
+      descBullets: [
+        "Graduated with a GPA of 3,56/4",
+        "Published an academic paper",
+        "Worked on multiple projects by myself and with a team"
+      ]
     }
   ]
 };
@@ -406,7 +413,7 @@ const contactInfo = {
   subtitle:
     "If you have an offer for me or just want to talk, here are my social media accounts. Or you can send me an e-mail at : ",
   //number: "+92-0000000000",
-  email_address: "umutbekdemir29@gmail.com"
+  email_address: "umut.bekdemir29@gmail.com"
 };
 
 // Twitter Section
@@ -415,8 +422,6 @@ const twitterDetails = {
   userName: "", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
-
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

@@ -34,8 +34,8 @@
   overflow: hidden;
 }
 
-.grey-color {
-  color: $subTitle;
+.dark-menu .grey-color {
+  color: $subtitleDark;
 }
 
 .header li a {
@@ -58,6 +58,7 @@
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
+  color: $textColor;
 }
 
 .header .logo-name {
